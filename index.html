@@ -338,7 +338,7 @@
         <!-- TOP CTA BUTTON (NATIVE REDIRECT & TRACKING) -->
         <a id="join-telegram-btn" href="https://t.me/+X0174A_YB-4xOGI1" class="cta-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-            Join Telegram Channel
+            Join Telegram Now
         </a>
 
         <!-- 2x2 BENTO PERKS -->
@@ -369,12 +369,12 @@
 
     </div>
 
-    <!-- TRACKING SCRIPT: EXACT NATIVE EVENT TRACK -->
+    <!-- TRACKING SCRIPT: LEAD CONVERSION EVENT FOR LEAD/WEBSITE OBJECTIVES -->
     <script>
         document.getElementById('join-telegram-btn').addEventListener('click', function() {
-            // Fires Subscribe event immediately for Meta Engagement Ad
+            // Fires Lead event immediately on button click for Lead campaigns optimized for Lead/Registration
             if (typeof fbq === 'function') {
-                fbq('track', 'Subscribe');
+                fbq('track', 'Lead');
             }
         });
     </script>
